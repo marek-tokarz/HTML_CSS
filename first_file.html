@@ -1,24 +1,133 @@
 <!DOCTYPE html>
-<head>
+<html lang="pl">
+  <head>
     <title>Title of a website</title>
     <meta name="Description" content="This is a description of a website" />
-    <meta name="Keywords" content="keywords, comma seperated, useful for web search engine" />
+    <meta
+      name="Keywords"
+      content="keywords, comma seperated, useful for web search engine"
+    />
     <meta name="robots" content="all" />
     <meta name="revisit-after" content="7" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    
-    <style type="text/css">
 
+    <style type="text/css">
+      body {
+        font-family: Verdana;
+        font-size: 11px;
+        background-color: brown;
+      }
+
+      div {
+        border-width: 0px;
+        border-color: black;
+        border-style: solid;
+        padding: 2px;
+        margin: 3px;
+        background-color: white;
+      }
+
+      div.zawartosc {
+        text-align: center;
+        margin: aut;
+        overflow: hidden;
+        height: auto;
+        width: 1001px;
+        padding: 0px;
+        border-width: 4px;
+        border-style: double;
+      }
+
+      div.header {
+        margin: 0px;
+        padding: 0px;
+        height: 210px;
+      }
+
+      div.nav {
+        text-align: left;
+        background-color: aqua;
+        margin: 0px;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        padding: 5px;
+      }
+
+      div.nav a:link,
+      a:hover,
+      a:visited {
+        margin-right: 17px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      div.article {
+        float: left;
+        width: 690px;
+        text-align: left;
+      }
+
+      div.section {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      div.aside {
+        float: left;
+        width: 290px;
+      }
+
+      div.footer {
+        clear: left;
+        background-color: #ccceee;
+        margin: 0px;
+        border-top-width: 1px;
+      }
+
+      a:link {
+        color: green;
+      }
+
+      a:visited {
+        color: purple;
+      }
+
+      a:hover {
+        color: darkgreen;
+        letter-spacing: 2px;
+      }
     </style>
 
-    <script type="text/javascript">
+    <script type="text/javascript"></script>
+  </head>
 
-    </script>
-</head>
-    <body>
-            <!-- Content of a webpage -->
-             <p>
-                Text of a first paragraph
-             </p>
-    </body>
+  <body>
+    <div class="zawartosc">
+      <div class="header">attach an image (width 1001px, height 210px)</div>
+      <div class="nav">
+        <a title="kliknij" href="1.html">Main</a>
+        <a title="kliknij" href="2.html">News</a>
+        <a title="kliknij" href="3.html">About</a>
+        <a title="kliknij" href="4.html">Contact</a>
+        <a title="kliknij" href="5.html">Related webpages</a>
+      </div>
+      <div class="article">
+        <div class="section">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod,
+          nisl vel consectetur tempor, sapien purus laoreet diam, vitae tempor
+          odio nibh vel enim. Nulla facilisi. Donec vitae odio velit. Proin eget
+          mauris vitae arcu tempor ultricies. Integer nec nisl velit.
+          Suspendisse potenti. Aenean at lectus velit. In hac habitasse platea
+          dictumst. Sed vel turpis eget massa molestie aliquet. Nulla facilisi.
+          Phasellus sed mauris quis sapien elementum efficitur. Vestibulum ante
+          ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+          curae; Sed nec diam non libero aliquet consequat. In hac habitasse
+          platea dictumst.
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        </div>
+      </div>
+      <div class="asside">LOGO</div>
+      <div class="footer">FOOTER</div>
+    </div>
+  </body>
 </html>
